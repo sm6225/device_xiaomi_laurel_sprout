@@ -184,6 +184,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Fingerprint feature
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi
