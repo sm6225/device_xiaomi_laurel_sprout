@@ -267,6 +267,7 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.fingerprint.rc \
     init.class_main.sh \
     init.laurel.wifi.rc \
     init.msm.usb.configfs.rc \
